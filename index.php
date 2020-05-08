@@ -13,15 +13,25 @@ else {
   
 ?>
 <!DOCTYPE html>
-<!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu May 07 2020 15:36:46 GMT+0000 (Coordinated Universal Time)  -->
+<!-- BUILT BY DANIEL C. GRASS -->
+<!-- 05/07/2020 -->
+
+<!-- ##### -->
+<!-- # X # -->
+<!-- ##### -->
+<!--  ##   -->
+<!-- ####  -->
+<!--# ## # -->
+<!--  ##   -->
+<!-- X  X  -->
+
 <html
   data-wf-page="5eb1b8941b62d522aee5acb2"
   data-wf-site="5eb1b8941b62d5466be5acb1"
 >
   <head>
     <meta charset="utf-8" />
-    <title>BeMo Mock</title>
+    <title>BeMo - Developer Function Test</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="Webflow" name="generator" />
 
@@ -143,10 +153,15 @@ else {
           <div>Oops! Something went wrong while submitting the form.</div>
         </div>
       </div>
-      <div class="form-block-4 w-form">
-        <form id="email-form" name="email-form" data-name="Email Form" class="form-4">
-
-        <label onclick="test()" class="w-radio"
+      <div class="form-block-2 w-form" id="fontBlock">
+        <form
+          id="wf-form-Email-Form"
+          name="wf-form-Email-Form"
+          data-name="Email Form"
+          class="form-2"
+        >
+          <div class="text-block-7">Font Size</div>
+          <label onclick="small()" class="w-radio"
             ><input
               type="radio"
               data-name="Radio"
@@ -155,34 +170,44 @@ else {
               value="Radio 2"
               class="w-form-formradioinput radio-button-2 w-radio-input"
             /><span class="radio-button-label-2 w-form-label"
-              >H1 Headers</span
+              >Small</span
             ></label
           >
-          <label onclick="test2()" class="w-radio"
+          <label onclick="medium()" class="w-radio"
             ><input
               type="radio"
               data-name="Radio"
-              id="radio-2"
+              id="radio"
               name="radio"
-              value="Radio 2"
-              class="w-form-formradioinput radio-button-2 w-radio-input"
-            /><span class="radio-button-label-2 w-form-label"
-              >H2 Headers</span
+              value="Radio"
+              class="w-form-formradioinput radio-button w-radio-input"
+            /><span class="radio-button-label w-form-label"
+              >Medium</span
             ></label
           >
-          <label onclick="test3()" class="w-radio"
+          <label onclick="large()" class="w-radio"
             ><input
               type="radio"
               data-name="Radio"
-              id="radio-2"
+              id="radio"
               name="radio"
-              value="Radio 2"
-              class="w-form-formradioinput radio-button-2 w-radio-input"
-            /><span class="radio-button-label-2 w-form-label"
-              >H3 Headers</span
+              value="Radio"
+              class="w-form-formradioinput radio-button w-radio-input"
+            /><span class="radio-button-label w-form-label"
+              >Large</span
             ></label
           >
         </form>
+
+        <div class="w-form-done">
+          <div>Thank you! Your submission has been received!</div>
+        </div>
+        <div class="w-form-fail">
+          <div>Oops! Something went wrong while submitting the form.</div>
+        </div>
+      </div>
+      <div class="form-block-4 w-form">
+        
        
         <div class="w-form-done">
           <div>Thank you! Your submission has been received!</div>
@@ -194,14 +219,14 @@ else {
     </div>
     <div class="text-block-4">
   
-      <strong class="bold-text">Ultimate Guide to CDA Structure Interview: Tips &amp; Proven Strategies
-        to Help You Prepare &amp; Ace Your CDA Interview</strong>
+      <p><strong class="bold-text">Ultimate Guide to CDA Structure Interview: Tips &amp; Proven Strategies
+        to Help You Prepare &amp; Ace Your CDA Interview</strong></p>
 
       <br/><br/>
       
-      <h1>Overview:</h1>
+      <p><strong>Overview:</strong></p>
       
-      <br/><br/>The purpose of the
+      <p><br/><br/>The purpose of the
       dental school interview<br />History and rationale of the CDA Interview<br />Types
       of Questions<br />The Seven Competencies<br />Structure of the CDA
       interview<br /><a
@@ -216,11 +241,11 @@ else {
         href="https://bemoacademicconsulting.com/Dental-School-Interview-Preparation.html"
         class="link-3"
         >BeMo CDA-structured interview prep program</a
-      ><br /><a href="#" class="link-4">Contact us<br /><br /></a>
+      ><br /><a href="#" class="link-4">Contact us<br /><br /></a></p>
 
-      <h1>What is the purpose of the dental school interview?</h1>
+      <p><strong>What is the purpose of the dental school interview?</strong><p>
 
-      <br /><br />Regardless of the format of dental school interview (e.g. CDA
+      <p><br /><br />Regardless of the format of dental school interview (e.g. CDA
       structured interview, MMI, or Panel interview), the purpose of the
       interview is rather straightforward and remains constant across the board:
       to assess the personality and Non-Cognitive Skills (NCSs) of the
@@ -246,11 +271,11 @@ else {
       lot of resources to devise the most effective interview process that will
       give them insight into the NCSs of their future candidates. And of course,
       for Canadian dental schools the answer has been the Canadian Dental
-      Association&#x27;s structured interview or CDA structured interviews.<br /><br />
+      Association&#x27;s structured interview or CDA structured interviews.<br /><br /></p>
 
-      <h1>History, rationale, and the structure of the CDA interview<br/><br/></h1>
+      <p><strong>History, rationale, and the structure of the CDA interview<br/><br/></strong></p>
 
-      Recall from our discussion above that we said an effective interview
+      <p>Recall from our discussion above that we said an effective interview
       process is the most reliable way to select candidates who perform well
       clinically. Well in an attempt to test this theory, in 2004, Smithers et
       al. conducted a study, which produced results that were so shocking, that
@@ -271,11 +296,11 @@ else {
       only re-structured in its format of delivery, but it was also restructured
       in terms of the type of questions that would be ask, and how they would be
       rated or scored by the interviewers. Let us first talk about the type of
-      questions that you may encounter on your CDA structured interview.<br /><br />
+      questions that you may encounter on your CDA structured interview.<br /><br /></p>
       
-      <h1>Types of Questions<br/><br/></h1>
+      <p><strong>Types of Questions<br/><br/></strong></p>
 
-      The types of questions that you may be asked during your dental school
+      <p>The types of questions that you may be asked during your dental school
       interview can be divided into two categories: (1) Situational Interview
       (SI) questions and (2) Patterned Behaviour Descriptive Interview (PBDI)
       questions. SI questions are those in which the candidates is placed in a
@@ -297,11 +322,11 @@ else {
       that the CDA has found to be reliable and valid indicators of future
       performance. In other words, every question that is asked during a dental
       school interview, regardless of being a SI or PBDI question, will address
-      one or more than one of the seven competencies.<br /><br />
+      one or more than one of the seven competencies.<br /><br /></p>
       
-      <h1>The Seven Competencies<br/><br/></h1>
+      <p><strong>The Seven Competencies<br/><br/></strong></p>
       
-      1. Communication: does the applicant have excellent communication
+      <p>1. Communication: does the applicant have excellent communication
       skills?<br />2. Conscientiousness: is the applicant thorough, careful to
       do tasks well?<br />3. Integrity : is the applicant honest with themselves
       and others?<br />4. Judgment and analysis: does the applicant have the
@@ -321,11 +346,11 @@ else {
       is continuously tested and retested. In order to be successful, however,
       you will have to be able to know which other competencies also apply to
       the question so that you can formulate an appropriate response, which
-      touches on the key factors essential for the interviewers.<br /><br />
+      touches on the key factors essential for the interviewers.<br /><br /></p>
       
-      <h1>Structure of the CDA interview<br/></h1><br/>
+      <p><strong>Structure of the CDA interview<br/></strong><br/></p>
       
-      The CDA structured interview is comprised of seven questions, one
+      <p>The CDA structured interview is comprised of seven questions, one
       for each of the seven competencies described above. Each question, which
       can either be a SI or a PBDI type, is scored on a 5-point scale for a
       total and a maximum of 35 points by two interviewers who are either a pair
@@ -351,12 +376,12 @@ else {
       >
       to learn more about our money-back guarantee CDA interview preparation
       programs.<br /><br />
-      <h1>Reference</h1>:<br /><br />Poole A.,
+      <p><strong>Reference</strong></p>:<br /><br />Poole A.,
       Catano, VM., and Cunningham, DP. Predicting performance in Canadian dental
       schools: the new CDA structured interview, a new personality assessment,
-      and the DAT. Journal of Dental Education. 2007; 71: 664 - 676.<br/>
+      and the DAT. Journal of Dental Education. 2007; 71: 664 - 676.<br/></p>
 
-      <strong><br/>‍</strong><br/><br/>
+      <p><strong><br/>‍</strong><br/><br/></p>
 
 
     </div>

@@ -479,7 +479,9 @@
   background-color: #ebeaea;
   box-shadow: 3px 3px 3px -1px rgba(0, 0, 0, 0.22);
 }
-
+#fontBlock {
+  height: 150px;
+}
 .radio-button {
   margin-left: auto;
 }

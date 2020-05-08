@@ -1,19 +1,12 @@
-$(document).ready(function () {
-  $('h1').on({
-    mouseenter: function () {
-      $(this).css({ 'font-family': 'sans-serif', 'font-size': '80px' });
-    },
-  });
-});
 
-function test() {
-  $('h1').css({ 'font-family': 'sans-serif', 'font-size': '80px' });
+function small() {
+  $('p').css({ 'font-size': '12px' });
 }
-function test2() {
-  $('h1').css({ 'font-family': 'sans-serif', 'font-size': '5px' });
+function medium() {
+  $('p').css({ 'font-size': '16px' });
 }
-function test3() {
-  $('h1').css({ 'font-family': 'sans-serif', 'font-size': '300px' });
+function large() {
+  $('p').css({ 'font-size': '20px' });
 }
 
 function logout() {
