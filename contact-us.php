@@ -120,7 +120,7 @@ else {
           name="email-form"
           data-name="Email Form"
           class="form-3"
-          action="processing.php"
+          action="contact-us.php"
           method="POST"
         >
           <label for="name" class="field-label-2">Name</label
